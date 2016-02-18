@@ -9,6 +9,7 @@ class OrderQueue(object):
     """
     def __init__(self):
         self.Orders = FastRBTree()
+
         self.totalAmount = 0.0
 
     def append(self,order):
